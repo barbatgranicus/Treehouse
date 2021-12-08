@@ -1,4 +1,4 @@
-I'm Barb.
+Welcome to my practice repository.
 
 This is a place for my Treehouse training.
 
