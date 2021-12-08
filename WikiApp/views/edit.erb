@@ -1,0 +1,18 @@
+<!-- project from Ruby with Sinatra basics -->
+<!-- 20211014 blh -->
+
+    <h1>Edit <%= @the_title %> Page</h1>
+    <div>
+      <form method="post" action="/<%= @the_title %>">
+        <input type="hidden" name="_method" value="put"> 
+        <fieldset>
+          <label for="body">Body: </label>
+          <textarea rows="3" columns="50" name="body" id="body">
+<%= @the_contents %>
+          </textarea>
+        </fieldset>
+        <input type="submit" value="Update">
+      </form>
+    </div>
+
+    <a href="/">Back</a>
