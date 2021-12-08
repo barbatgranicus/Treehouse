@@ -1,0 +1,16 @@
+<!--- example of output scriptlet tag --->
+<%= 3+6 %>
+
+<!--- example of setting a variable and conditional scriptlets --->
+<% grade = 34 %>
+<% if grade > 60 %>
+  <p>Passing</p>
+<% else %>
+  <p>Failing</p>
+<% end %>
+
+<!--- example of printing array values --->
+<% an_array = ["A","B","C"] %>
+<% an_array.each do |a_value| %>
+  <p> This is a value: <%= a_value %> </p>
+<% end %>
