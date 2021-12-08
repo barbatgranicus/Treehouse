@@ -1,4 +1,4 @@
-I'm Barb.
+Welcome.
 
 This is a place for my Treehouse training.
 
